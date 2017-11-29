@@ -1,14 +1,33 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
     <meta charset="utf-8">
     <title>SlideShow</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-</head>
+    <link rel="stylesheet" type="text/css" href="css/main.css"> </head>
 
 <body>
-
-   
+    <div id="container" class="fon1">
+        <div class="div-icon"><span class="icon icon2" onclick="right()">&#10146</span></div>
+        <div class="div-icon"><span class="icon" onclick="left()">&#10146</span></div>
+        <div class="footer">
+            <div class="Play" id="idPlay">
+                <input type="button" value="Play" id="Play"> </div>
+            <div class="Pause" id="idPause">
+                <input type="button" value="Pause" id="Pause"> </div>
+            <form name="radioK" class="radioK">
+                <input type="radio" name="backg" value="fon1" onmousedown="show()" id="radio1" checked>
+                <input type="radio" name="backg" value="fon2" onmousedown="show()" id="radio2">
+                <input type="radio" name="backg" value="fon3" onmousedown="show()" id="radio3">
+                <input type="radio" name="backg" value="fon4" onmousedown="show()" id="radio4">
+                <input type="radio" name="backg" value="fon5" onmousedown="show()" id="radio5">
+                <input type="radio" name="backg" value="fon6" onmousedown="show()" id="radio6">
+                <input type="radio" name="backg" value="fon7" onmousedown="show()" id="radio7">
+                <input type="radio" name="backg" value="fon8" onmousedown="show()" id="radio8">
+                <input type="radio" name="backg" value="fon9" onmousedown="show()" id="radio9"> </form>
+        </div>
+        <div id="hover-radio"></div>
+    </div>
     <script src="js/main.js"></script>
 </body>
 
