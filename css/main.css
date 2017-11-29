@@ -11,6 +11,7 @@
 
 #navigation {
     width: 100%;
+    margin-bottom: 10px;
     flex-flow: wrap;
     justify-content: center;
 }
@@ -42,11 +43,12 @@ input {
     transform: rotate(-180deg);
     margin-top: 0;
 }
-	#hover-radio{
-		width: 12%;
-		height: 12%;
-		background: #ff0;
-		position: absolute;
-		top:80% ;
-		left:33% ;
-	}
+
+#hover-radio {
+    width: 12%;
+    height: 12%;
+    background: #ff0;
+    position: absolute;
+    top: 80%;
+    left: 34%;
+}
