@@ -1,0 +1,52 @@
+#container {
+    margin: auto;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    position: relative;
+}
+
+#navigation {
+    width: 100%;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+#play-pause {
+    position: absolute;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+#right,
+#left,
+input {
+    cursor: pointer;
+}
+
+#right,
+#left {
+    width: 10%;
+    margin-top: 20%;
+    color: azure;
+    font-size: 3em;
+}
+
+#right {
+    transform: rotate(-180deg);
+    margin-top: 0;
+}
+	#hover-radio{
+		width: 12%;
+		height: 12%;
+		background: #ff0;
+		position: absolute;
+		top:80% ;
+		left:33% ;
+	}
