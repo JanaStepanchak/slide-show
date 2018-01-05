@@ -45,9 +45,11 @@ input {
 }
 
 #hover-radio {
+    display: none;
     width: 12%;
     height: 12%;
-    background: #ff0;
+    background: url(../img/00.jpg);
+    background-size: cover;
     position: absolute;
     top: 80%;
     left: 34%;
